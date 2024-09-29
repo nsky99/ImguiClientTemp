@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="pkg\imgui\imgui.cpp">
+      <Filter>pkg\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="pkg\imgui\imgui_draw.cpp">
+      <Filter>pkg\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="pkg\imgui\imgui_impl_dx11.cpp">
+      <Filter>pkg\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="pkg\imgui\imgui_impl_win32.cpp">
+      <Filter>pkg\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="pkg\imgui\imgui_tables.cpp">
+      <Filter>pkg\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="pkg\imgui\imgui_widgets.cpp">
+      <Filter>pkg\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="pkg\imgui_client\ImGuiClient.cpp">
+      <Filter>pkg\imgui_client</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pkg\imgui\imconfig.h">
+      <Filter>pkg\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="pkg\imgui\imgui.h">
+      <Filter>pkg\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="pkg\imgui\imgui_impl_dx11.h">
+      <Filter>pkg\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="pkg\imgui\imgui_impl_win32.h">
+      <Filter>pkg\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="pkg\imgui\imgui_internal.h">
+      <Filter>pkg\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="pkg\imgui\imstb_rectpack.h">
+      <Filter>pkg\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="pkg\imgui\imstb_textedit.h">
+      <Filter>pkg\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="pkg\imgui\imstb_truetype.h">
+      <Filter>pkg\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="pkg\imgui_client\IImGuiDrawer.h">
+      <Filter>pkg\imgui_client</Filter>
+    </ClInclude>
+    <ClInclude Include="pkg\imgui_client\ImGuiClient.h">
+      <Filter>pkg\imgui_client</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="pkg">
+      <UniqueIdentifier>{e8d72bb3-7b29-4e02-84cf-1412abf6ed55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkg\imgui">
+      <UniqueIdentifier>{8a886852-cbe2-40f4-9099-f014e8cc1c1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pkg\imgui_client">
+      <UniqueIdentifier>{1b522eb9-7b83-4de3-a5a9-c9a131973308}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
